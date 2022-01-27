@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Grade Applications ~ by JavaScript.</title>
+    <!-- link for custom css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <p class="error"></p>
+        <h3 class="title">Number to Grade</h3>
+        <div class="input-field">
+            <label for="subjects">Subject  <span class="ques">?</span>  <small class="info">To get multiple subject grade please put the multiple subject in the subject field by (Coma & space- , ) separate[Ex- Bangla, English, Math]</small></label>
+            <input type="text" id="subjects">
+        </div>
+        <div class="input-field">
+            <label for="numbers">Marks  <span class="ques">?</span>  <small class="info"> To get multiple marks grade please put the multiple marks in the marks field by (Coma & space- , ) separate[Ex- Bangla, English, Math]</small></label>
+            <input type="text" id="numbers">
+        </div>
+        <div class="input-field">
+            <button class="get-result disabled">Get Grade</button>
+        </div>
+        <div class="display">
+          <ul>
+              <li>Subjects</li>
+              <li>Marks</li>
+              <li>Grade</li>
+          </ul>
+          <div class="resultBox">
+            <ul class="subjectsName">
+           
+            </ul>
+            <ul class="marksCount">
+               
+            </ul>
+            <ul class="grades">
+               
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    <!-- add app.js file  -->
+    <script src="app.js"></script>
+</body>
+
+</html>
