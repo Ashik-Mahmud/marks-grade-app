@@ -4,7 +4,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: poppins;
-    background-color: #2f3640;
+    background-color: #273c75;
     overflow: hidden;
 }
 
@@ -76,7 +76,7 @@ input {
 .input-field button {
     width: 100%;
     padding: 0.7rem;
-    background: #333;
+    background: #273c75;
     color: #fff;
     border: none;
     outline: none;
